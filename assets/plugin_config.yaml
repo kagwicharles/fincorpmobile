@@ -1,0 +1,22 @@
+# This configuration file is necessary for constants used
+#  in the DynamicCraftPlugin
+
+urls:
+  test: true
+  uat: https://uat.craftsilicon.com #https://uat.tsedeybank.com.et
+  live: https://tsedeychannels.tsedeybank.com.et
+  tokenUrl: /ElmaV4Auth/api/auth/app #/ElmaV4Auth/api/auth/apps
+
+request:
+  trxSource: APP
+  bankId: "9977"
+  appName: Fincorp
+  country: ESWATINI
+  bankCustomerID: "25100002"
+  countryCode: "268"
+  countryIsoCode: "SZ"
+
+appProperties:
+  appLabel: Fincorp Mobile
+  appPrimaryColor: 72CC39
+  appSecondaryColor: F6D703
