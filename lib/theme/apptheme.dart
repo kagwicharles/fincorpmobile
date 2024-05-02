@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 const pageTransitionsTheme = PageTransitionsTheme(
   builders: <TargetPlatform, PageTransitionsBuilder>{
@@ -9,8 +10,8 @@ const pageTransitionsTheme = PageTransitionsTheme(
 );
 
 class AppTheme {
-  static var primaryColor = const Color(0xffC4943D);
-  static var secondaryAccent = const Color(0xff000000);
+  static var primaryColor = const Color(0xff111111);
+  static var secondaryAccent = const Color(0xffC4943D);
   static var blueAccent = const Color(0xff0CB6B5);
   static var boxHeight = 9.0;
 
@@ -26,7 +27,7 @@ class AppTheme {
       surface: Colors.white,
       onError: Colors.red,
     ),
-    fontFamily: "Manrope",
+    fontFamily: GoogleFonts.lato().fontFamily,
     appBarTheme: AppBarTheme(
         backgroundColor: primaryColor,
         foregroundColor: Colors.white,

@@ -34,14 +34,16 @@ class _DashboardScreenState extends State<DashboardScreen> {
           title: const Text("Dash"),
         ),
         body: Center(
-            child: ElevatedButton(
-                onPressed: () {
-                  if (isactivated) {
-                    context.navigate(const LoginScreen());
-                  } else {
-                    context.navigate(const ActivationScreen());
-                  }
-                },
-                child: const Text("Login"))));
+            child: SizedBox(
+                width: 150,
+                child: ElevatedButton(
+                    onPressed: () {
+                      if (isactivated) {
+                        context.navigate(const LoginScreen());
+                      } else {
+                        context.navigate(const ActivationScreen());
+                      }
+                    },
+                    child: const Text("Login")))));
   }
 }
